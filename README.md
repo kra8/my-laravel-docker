@@ -1,12 +1,18 @@
 
-# Start Laravel
+# My Laravel environment on Docker
+
+### Create Laravel Project
 ``` sh
-$ docker-compose up -d
+$ make create
 ```
-Open the http://localhost:8000
 
-
-# Usage Composer
+### up/dwon
 ``` sh
-$ docker-compose run composer
+$ make up
+$ make down
+```
+
+### Enter the container
+``` sh
+$ make ash
 ```
